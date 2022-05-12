@@ -1,0 +1,242 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10%;
+  display: block;
+  background: radial-gradient(rgb(180, 180, 180) 2px, transparent 1px);
+  background-size : 40px 40px;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h4 {
+  display: block;
+  font-size: 0.5;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+textarea {
+  outline: none;
+  overflow: auto;
+  resize: vertical;
+  font-family: 'Nunito sans', sans-serif;
+}
+
+a {
+  margin-right: 4px;
+}
+
+.form-inline {
+  display: inline;
+}
+
+.posts-title {
+  display: block;
+  font-size: 16px;
+}
+
+.post-date {
+  margin-bottom: 20px;
+}
+
+.button  {
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  margin: 30px auto;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #EEEEEE;
+  transition: .3s ease-in-out;  
+}
+
+.button:hover {
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+}
+
+.button-all {
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  margin: 30px auto;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #EEEEEE;
+  transition: .3s ease-in-out;  
+}
+
+.button-all:hover {
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+}
+
+.button-edit {
+  background: rgb(0, 110, 255);
+  border: 2px solid #000;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  margin: 30px auto;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #EEEEEE;
+  transition: .3s ease-in-out;  
+}
+
+.button-edit:hover {
+  border: 2px solid #000;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+}
+
+.button-read {
+  background: rgb(122, 122, 122);
+  border: 2px solid #000;
+  box-sizing: content-box;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  margin: 30px auto;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #EEEEEE;
+  transition: .3s ease-in-out;  
+}
+
+.button-read:hover {
+  border: 2px solid #000;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+}
+
+.button-submit {
+  background: rgb(75, 253, 75);
+  border: 2px solid #000;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  margin: 30px auto;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #000;
+  transition: .3s ease-in-out;  
+}
+
+.button-submit:hover {
+  border: 2px solid #000;
+  background: #fff;
+  color: rgb(75, 253, 75);
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+
+}
+
+.button-delete {
+  background: rgb(253, 75, 75);
+  border: 2px solid #000;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 9px 16px;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #000;
+  transition: .3s ease-in-out;  
+}
+
+.button-delete:hover {
+  border: 2px solid #000;
+  background: #fff;
+  color: rgb(253, 75, 75);
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 3px black;
+}
+
+.posts-container {
+  background-color: #fff;
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 20px auto;
+  transition: .3s ease-in-out;
+}
+
+.posts-container:hover {
+  box-shadow: 3px 3px 3px black;
+  transition: .3s ease-in-out;
+}
+
+.input-text {
+  display: block;
+  height: 30px;
+  width: 50%;
+  background: transparent;
+  font-family: 'Nunito' sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.desc-text {
+  display: block;
+  height: 120px;
+  width: 50%;
+  background: transparent;
+  font-family: 'Nunito sans' sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.mark-text {
+  display: block;
+  height: 120px;
+  width: 50%;
+  background: transparent;
+  font-family: 'Nunito sans' sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
